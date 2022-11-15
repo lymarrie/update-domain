@@ -4,6 +4,13 @@
     "$schema": "https://schema.yext.com/config/pages/yextsite-config/v1",
     "domainConfig": "${{domainName}}",
     "siteName": "${{siteName}}",
-    "repoConfig": "${{repoId}}"
+    "repoConfig": "${{repoId}}",
+    "branches": [
+      {
+        "name": "main",
+        "envVars": [],
+        "isProductionBranch": true
+      }
+    ]
   }
   
